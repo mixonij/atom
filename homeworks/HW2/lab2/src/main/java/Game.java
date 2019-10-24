@@ -40,7 +40,7 @@ public class Game {
         int cows = 0;
         for (int i = 0; i < guess.length(); i++) {
             int pos = word.indexOf(guess.charAt(i));
-            if (pos != -1 && pos != i) {
+            if (pos != -1) {
                 cows++;
             }
         }
