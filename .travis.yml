@@ -5,6 +5,5 @@ jdk:
   - oraclejdk8
 
 env:
-  - $PROJECT_DIR=homeworks/HW2/lab2/
-
+  - $PROJECT_DIR=homeworks/HW2
 script: cd $PROJECT_DIR && chmod +x ./gradlew && ./gradlew assemble && ./gradlew check
