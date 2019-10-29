@@ -16,7 +16,7 @@ public class AppTest {
     @Test
     public void computeCows() {
         Game game = new Game(null);
-        game.SetSecretWord("aaaa");
+        game.setSecretWord("aaaa");
         int result = game.computeBulls("aaaa");
         Assert.assertEquals(4, result);
     }
