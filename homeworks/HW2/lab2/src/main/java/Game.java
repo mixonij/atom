@@ -16,7 +16,7 @@ public class Game {
         return words.get(random.nextInt(words.size()));
     }
 
-    public void SetSecretWord(String word) {
+    public void setSecretWord(String word) {
         this.word = word;
     }
 
