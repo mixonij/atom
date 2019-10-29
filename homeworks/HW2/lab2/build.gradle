@@ -26,7 +26,7 @@ dependencies {
 checkstyle {
     ignoreFailures = false
     toolVersion = '7.6.1'
-    configFile = new File('../../config/checkstyle/checkstyle.xml')
+    configFile = new File('../../../config/checkstyle/checkstyle.xml')
 }
 
 jar {
