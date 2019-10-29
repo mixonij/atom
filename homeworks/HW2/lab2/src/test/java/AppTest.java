@@ -14,7 +14,7 @@ public class AppTest {
     }
 
     @Test
-    public void computeCows() {
+    public void computeBulls() {
         Game game = new Game(null);
         game.setSecretWord("aaaa");
         int result = game.computeBulls("aaaa");
