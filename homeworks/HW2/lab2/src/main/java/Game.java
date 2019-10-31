@@ -78,8 +78,10 @@ public class Game {
                 System.out.println("You won!");
                 return;
             }
-            System.out.println("Bulls: " + computeBulls(guess));
-            System.out.println("Cows: " + computeCows(guess));
+            int bulls = computeBulls(guess);
+            int cows = computeCows(guess) - bulls;
+            System.out.println("Bulls: " + bulls);
+            System.out.println("Cows: " + cows);
             losses++;
         }
         System.out.println("You lose :(");
